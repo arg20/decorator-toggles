@@ -1,0 +1,49 @@
+{
+  "name": "decorator-toggles",
+  "version": "0.0.3",
+  "description": "Toggle functions using decorators",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:arg20/decorator-toggles.git"
+  },
+  "keywords": [
+    "decorators",
+    "decorator",
+    "toggles",
+    "toggle"
+  ],
+  "author": "Gabriel Zimmermann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arg20/decorator-toggles/issues"
+  },
+  "homepage": "https://github.com/arg20/decorator-toggles#readme",
+  "dependencies": {
+    "reflect-metadata": "^0.1.8"
+  },
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/del": "^2.2.31",
+    "@types/gulp": "^3.8.32",
+    "@types/gulp-mocha": "0.0.29",
+    "@types/gulp-nodemon": "0.0.29",
+    "@types/lodash": "^4.14.36",
+    "@types/morgan": "^1.7.32",
+    "@types/winston": "0.0.28",
+    "chai": "^3.5.0",
+    "colors": "^1.1.2",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^3.0.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-typescript": "^3.0.2",
+    "gulpclass": "^0.1.1",
+    "mocha": "^3.1.2",
+    "typescript": "^2.0.3"
+  }
+}
